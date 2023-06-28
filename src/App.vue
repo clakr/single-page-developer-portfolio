@@ -1,15 +1,20 @@
 <script setup lang="ts">
-  import { inject, onBeforeMount } from "vue";
-  const addSRHeading = inject("addSRHeading") as () => void;
-  
-  onBeforeMount(() => {
-    addSRHeading();
-  });
-  </script>
-  
-  <template>
-    <div>qwe</div>
-  </template>
-  
-  <style lang="scss" scoped></style>
-  
+import TheHero from "@/components/TheHero.vue";
+import TheSkills from "@/components/TheSkills.vue";
+import TheProjects from "./components/TheProjects.vue";
+import { inject, onBeforeMount } from "vue";
+
+const addSRHeading = inject("addSRHeading") as () => void;
+
+onBeforeMount(() => {
+  addSRHeading();
+});
+</script>
+
+<template>
+  <TheHero />
+  <TheSkills />
+  <TheProjects />
+</template>
+
+<style scoped></style>

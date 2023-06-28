@@ -6,6 +6,6 @@ import "./_preflight.css";
 import "./style.css";
 
 createApp(App)
-  .use(projectConfig)
+  .use(projectConfig, { dark: true })
   .use(authorModal)
   .mount("#app");

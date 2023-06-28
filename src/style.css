@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "Space Grotesk";
+  src: local("Space Grotesk"), url("/SpaceGrotesk.ttf") format("truetype");
+}
+
+:root {
+  --black: #151515;
+  --grey: #d9d9d9;
+  --green: #4ee1a0;
+
+  font-family: "Space Grotesk", sans-serif;
+  color: white;
+  background-color: var(--black);
+}
+
+body {
+  background-image: url(/pattern-rings.svg), url(/pattern-circle.svg),
+    url(/pattern-rings.svg);
+  background-repeat: no-repeat;
+  background-position: top 12.4rem left -34.2rem, top 25.4rem right -6.5rem,
+    top 128.7rem right -34.3rem;
+}
