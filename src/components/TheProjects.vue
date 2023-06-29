@@ -81,8 +81,8 @@ const projects: Project[] = [
         </span>
       </div>
       <div>
-        <Button>View Project</Button>
-        <Button>View Code</Button>
+        <TheButton>View Project</TheButton>
+        <TheButton>View Code</TheButton>
       </div>
     </article>
   </section>
@@ -138,5 +138,27 @@ span {
 
 article > div:last-of-type {
   column-gap: 3.2rem;
+}
+
+@media screen and (min-width: 768px) {
+  section {
+    padding: 0 3.2rem 10rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 6rem 2rem;
+  }
+
+  section > div {
+    grid-column: span 2 / span 2;
+  }
+
+  section > div > button {
+    align-self: flex-start;
+  }
+
+  h3 {
+    font-size: 7.2rem;
+    line-height: 7.2rem;
+    letter-spacing: -0.2045rem;
+  }
 }
 </style>

@@ -68,4 +68,37 @@ article:last-of-type {
   border-bottom: 1px solid white;
   padding-bottom: 4rem;
 }
+
+@media screen and (min-width: 768px) {
+  section {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    row-gap: 5.2rem;
+    text-align: start;
+    padding: 5.2rem 3.2rem 10rem;
+    background-position: bottom 3.5rem right -33.2rem;
+  }
+
+  article {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.4rem;
+  }
+
+  h4 {
+    font-size: 4.8rem;
+    line-height: 5.6rem;
+    letter-spacing: -0.15rem;
+  }
+
+  span {
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+  }
+
+  article:last-of-type {
+    border-bottom: unset;
+    padding-bottom: unset;
+  }
+}
 </style>

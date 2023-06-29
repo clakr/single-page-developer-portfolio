@@ -55,4 +55,22 @@ div {
   align-items: center;
   column-gap: 2.56rem;
 }
+
+@media screen and (min-width: 768px) {
+  nav {
+    padding: 3rem 3rem 0;
+    flex-direction: row;
+    justify-content: space-between;
+    row-gap: unset;
+  }
+
+  h2 {
+    font-size: 3.2rem;
+    letter-spacing: -0.0444rem;
+  }
+
+  div {
+    column-gap: 3.2rem;
+  }
+}
 </style>
