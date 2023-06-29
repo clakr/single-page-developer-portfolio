@@ -19,7 +19,7 @@ import TheButton from "./TheButton.vue";
       <textarea placeholder="Message" rows="3" />
       <TheButton>Send Message</TheButton>
     </form>
-    <nav>
+    <div class="nav">
       <h2>adamkeyes</h2>
       <div>
         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24">
@@ -45,7 +45,7 @@ import TheButton from "./TheButton.vue";
           />
         </svg>
       </div>
-    </nav>
+    </div>
   </footer>
 </template>
 
@@ -137,7 +137,7 @@ form > button {
   align-self: flex-end;
 }
 
-nav {
+.nav {
   padding-top: 3.9rem;
   display: flex;
   flex-direction: column;
@@ -153,7 +153,7 @@ h2 {
   letter-spacing: -0.0333rem;
 }
 
-div {
+div:not(.nav) {
   display: flex;
   align-items: center;
   column-gap: 2.56rem;
@@ -194,7 +194,7 @@ svg:hover {
     margin-inline: auto;
   }
 
-  nav {
+  .nav {
     flex-direction: row;
     justify-content: space-between;
     row-gap: unset;
@@ -205,7 +205,7 @@ svg:hover {
     letter-spacing: -0.0444rem;
   }
 
-  div {
+  div:not(.nav) {
     column-gap: 3.2rem;
   }
 }
