@@ -252,7 +252,7 @@ svg:hover {
     margin-right: unset;
   }
 
-  nav {
+  .nav {
     order: 4;
     grid-column: span 2 / span 2;
   }
