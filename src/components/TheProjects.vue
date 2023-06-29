@@ -90,7 +90,7 @@ const projects: Project[] = [
 
 <style scoped>
 section {
-  padding: 8rem 1.5rem;
+  padding: 0 1.5rem 8rem;
   display: grid;
   row-gap: 4rem;
 }

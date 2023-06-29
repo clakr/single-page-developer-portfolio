@@ -31,7 +31,7 @@ footer {
   row-gap: 2rem;
   background-image: url(/pattern-rings.svg);
   background-repeat: no-repeat;
-  background-position: top 43.6rem right 18.8rem;
+  background-position: top 44rem left -34.3rem;
 }
 
 h3 {

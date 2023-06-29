@@ -44,9 +44,10 @@ section {
   align-items: center;
   row-gap: 2.4rem;
   text-align: center;
-  padding-block: 4rem;
-  margin-inline: 1.6rem;
-  border-bottom: 1px solid white;
+  padding: 4rem 1.6rem 8rem;
+  background-image: url(/pattern-rings.svg);
+  background-repeat: no-repeat;
+  background-position: bottom 1.6rem right -34.3rem;
 }
 
 h4 {
@@ -61,5 +62,10 @@ span {
   font-size: 1.6rem;
   font-weight: 500;
   line-height: 2.6rem;
+}
+
+article:last-of-type {
+  border-bottom: 1px solid white;
+  padding-bottom: 4rem;
 }
 </style>

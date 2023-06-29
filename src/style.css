@@ -13,9 +13,3 @@
   color: white;
   background-color: var(--black);
 }
-
-body {
-  background-image: url(/pattern-rings.svg);
-  background-repeat: no-repeat;
-  background-position: top 128.7rem right -34.3rem;
-}

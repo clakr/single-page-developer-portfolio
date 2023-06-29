@@ -24,7 +24,7 @@ import TheNav from "./TheNav.vue";
 section {
   background-image: url(/pattern-rings.svg), url(/pattern-circle.svg);
   background-repeat: no-repeat;
-  background-position: top 12.4rem right 18.7rem, top 25.4rem left 31.1rem;
+  background-position: top 12.4rem left -34.2rem, top 25.4rem right -6.5rem;
 }
 
 picture {
