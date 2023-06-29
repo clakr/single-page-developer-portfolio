@@ -15,4 +15,8 @@ button {
   width: fit-content;
   text-transform: uppercase;
 }
+
+button:hover {
+  color: var(--green);
+}
 </style>
