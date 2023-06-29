@@ -72,7 +72,7 @@ const projects: Project[] = [
       <div class="wrapper--image">
         <img
           :src="image.small"
-          alt=""
+          :alt="`${name} preview`"
           :srcset="`${image.small} 1x, ${image.large} 2x`"
         />
         <div>

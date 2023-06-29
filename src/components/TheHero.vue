@@ -5,8 +5,11 @@ import TheButton from "./TheButton.vue";
 <template>
   <section>
     <picture>
-      <source media="(min-width: 1440px)" srcset="image-profile-desktop.webp" />
-      <source media="(min-width: 768px)" srcset="image-profile-tablet.webp" />
+      <source
+        media="(min-width: 1440px)"
+        srcset="/image-profile-desktop.webp"
+      />
+      <source media="(min-width: 768px)" srcset="/image-profile-tablet.webp" />
       <img src="/image-profile-mobile.webp" alt="Picture of Adam Keyes" />
     </picture>
     <nav>
