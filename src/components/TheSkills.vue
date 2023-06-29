@@ -40,8 +40,7 @@ const skills: Skill[] = [
 
 <style scoped>
 section {
-  display: flex;
-  flex-direction: column;
+  display: grid;
   align-items: center;
   row-gap: 2.4rem;
   text-align: center;
